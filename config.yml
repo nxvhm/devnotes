@@ -44,5 +44,5 @@ menu:
           weight: 20
         - identifier: Devnotes
           name: nxvhm.github.io
-          url: https://nxvhm.github.io
+          url: https://nxvhm.github.io/devnotes/
           weight: 30  
