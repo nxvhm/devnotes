@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Devnotes</title>
+    <link>https://nxvhm.github.io/devnotes/posts/</link>
+    <description>Recent content in Posts on Devnotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 May 2022 23:34:23 +0300</lastBuildDate><atom:link href="https://nxvhm.github.io/devnotes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FirstPost</title>
+      <link>https://nxvhm.github.io/devnotes/posts/firstpost/</link>
+      <pubDate>Mon, 02 May 2022 23:34:23 +0300</pubDate>
+      
+      <guid>https://nxvhm.github.io/devnotes/posts/firstpost/</guid>
+      <description>Hello world right here Subtitle Li Europan lingues es membres del sm familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi fa1r uniform grammatica, pronunciation e plu sommun paroles.</description>
+    </item>
+    
+  </channel>
+</rss>
