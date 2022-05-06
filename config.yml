@@ -24,7 +24,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -34,9 +34,9 @@ params:
 
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: php
+          name: php
+          url: /php/
           weight: 10
         - identifier: tags
           name: tags
