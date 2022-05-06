@@ -43,8 +43,8 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://nxvhm.github.io/devnotes/categories/ title=categories>
-<span>categories</span>
+<a href=https://nxvhm.github.io/devnotes/php/ title=php>
+<span>php</span>
 </a>
 </li>
 <li>
@@ -61,16 +61,20 @@
 </nav>
 </header>
 <main class=main>
-<article class=first-entry>
+<article class=post-entry>
 <header class=entry-header>
-<h2>FirstPost
+<h2>Run Script in background on system startup with nohup
 </h2>
 </header>
 <section class=entry-content>
-<p>Hello world right here Subtitle Li Europan lingues es membres del sm familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi fa1r uniform grammatica, pronunciation e plu sommun paroles....</p>
+<p>Install nohup which is used to run processes in background
+sudo apt install nohup Create a simple shell script in /usr/local/bin which is gonna be responsible for starting the script via nohup.
+#! /bin/sh nohup php8.0 /path/to/myscript.php >/dev/null 2>&1 & Make it executable:
+sudo chmod u+x myscript.sh Symlink script to /etc/init.d/
+sudo ln -s /usr/local/bin/myscript.sh /etc/init.d/ Symlink the symlink to /etc/rc2.d. Prepend the scriptname with S[NUMBER]. Number is used by the system to determine the order of executing the scripts in the /etc/rc2....</p>
 </section>
-<footer class=entry-footer><span title="2022-05-02 23:34:23 +0300 +0300">May 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to FirstPost" href=https://nxvhm.github.io/devnotes/posts/firstpost/></a>
+<footer class=entry-footer><span title="2022-05-06 22:34:23 +0300 +0300">May 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Run Script in background on system startup with nohup" href=https://nxvhm.github.io/devnotes/php/scriptonstartup/></a>
 </article>
 </main>
 <footer class=footer>
