@@ -6,14 +6,31 @@
     <description>Recent content in Posts on Devnotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 23:34:23 +0300</lastBuildDate><atom:link href="https://nxvhm.github.io/devnotes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 22:34:23 +0300</lastBuildDate><atom:link href="https://nxvhm.github.io/devnotes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FirstPost</title>
-      <link>https://nxvhm.github.io/devnotes/posts/firstpost/</link>
-      <pubDate>Mon, 02 May 2022 23:34:23 +0300</pubDate>
+      <title>Elasticsearch and Kibana paths</title>
+      <link>https://nxvhm.github.io/devnotes/posts/elastic-basics/</link>
+      <pubDate>Fri, 03 Jun 2022 22:34:23 +0300</pubDate>
       
-      <guid>https://nxvhm.github.io/devnotes/posts/firstpost/</guid>
-      <description>Hello world right here Subtitle Li Europan lingues es membres del sm familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi fa1r uniform grammatica, pronunciation e plu sommun paroles.</description>
+      <guid>https://nxvhm.github.io/devnotes/posts/elastic-basics/</guid>
+      <description>Start/stop/restart:
+sudo systemctl restart elasticsearch.service sudo systemctl restart kibana.service Config folders:
+/etc/elasticsearch/ /etc/kibana/ Certicate files for the api clients:
+/etc/elasticsearch/certs/ ES Scripts for enrollment tokes and certicates generation:
+/usr/share/elasticsearch/bin/ /usr/share/kibana/bin/ </description>
+    </item>
+    
+    <item>
+      <title>Run Script in background on system startup with nohup</title>
+      <link>https://nxvhm.github.io/devnotes/posts/scriptonstartup/</link>
+      <pubDate>Fri, 06 May 2022 22:34:23 +0300</pubDate>
+      
+      <guid>https://nxvhm.github.io/devnotes/posts/scriptonstartup/</guid>
+      <description>Install nohup which is used to run processes in background
+sudo apt install nohup	Create a simple shell script in /usr/local/bin which is gonna be responsible for starting the script via nohup.
+#! /bin/sh nohup php8.0 /path/to/myscript.php &amp;gt;/dev/null 2&amp;gt;&amp;amp;1 &amp;amp; Make it executable:
+sudo chmod u+x myscript.sh	Symlink script to /etc/init.d/
+sudo ln -s /usr/local/bin/myscript.sh /etc/init.d/ Symlink the symlink to /etc/rc2.d. Prepend the scriptname with S[NUMBER]. Number is used by the system to determine the order of executing the scripts in the /etc/rc2.</description>
     </item>
     
   </channel>
