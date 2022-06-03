@@ -34,10 +34,7 @@ params:
 
 menu:
     main:
-        - identifier: php
-          name: php
-          url: /php/
-          weight: 10
+
         - identifier: tags
           name: tags
           url: /tags/
