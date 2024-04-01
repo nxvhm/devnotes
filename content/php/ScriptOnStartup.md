@@ -1,6 +1,7 @@
 ---
 title: "Run Script in background on system startup with nohup"
 date: 2022-05-06T22:34:23+03:00
+tags: ["php", "linux"]
 ---
 
 Install nohup which is used to run processes in background
