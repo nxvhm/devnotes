@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firewall on Devnotes</title>
+    <link>https://nxvhm.github.io/devnotes/tags/firewall/</link>
+    <description>Recent content in Firewall on Devnotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Apr 2024 20:47:12 +0300</lastBuildDate>
+    <atom:link href="https://nxvhm.github.io/devnotes/tags/firewall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common Firewall Rules</title>
+      <link>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</link>
+      <pubDate>Mon, 01 Apr 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</guid>
+      <description>List of common firewall linux 1. Allow SSH (port 22) from a specific IP address: sudo firewall-cmd --zone=public --add-rich-rule=&amp;#39;rule family=&amp;#34;ipv4&amp;#34; source address=&amp;#34;192.168.1.2&amp;#34; port protocol=&amp;#34;tcp&amp;#34; port=&amp;#34;22&amp;#34; accept&amp;#39; --permanent sudo firewall-cmd --reload Block incoming ICMP (ping) requests: sudo firewall-cmd --zone=public --add-rich-rule=&amp;#39;rule family=&amp;#34;ipv4&amp;#34; protocol value=&amp;#34;icmp&amp;#34; drop&amp;#39; -- permanent sudo firewall-cmd --reload Allow traffic from a specific network range: sudo firewall-cmd --zone=public --add-source=192.168.0.0/24 --permanent sudo firewall-cmd --reload Open a custom port range (e.g., 5000-6000): sudo firewall-cmd --zone=public --add-port=5000-6000/tcp --permanent sudo firewall-cmd --reload Block outgoing traffic on a specific port (e.</description>
+    </item>
+  </channel>
+</rss>

@@ -5,6 +5,36 @@
     <link>https://nxvhm.github.io/devnotes/tags/</link>
     <description>Recent content in Tags on Devnotes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nxvhm.github.io/devnotes/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Apr 2024 20:47:12 +0300</lastBuildDate>
+    <atom:link href="https://nxvhm.github.io/devnotes/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firewall</title>
+      <link>https://nxvhm.github.io/devnotes/tags/firewall/</link>
+      <pubDate>Mon, 01 Apr 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/firewall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://nxvhm.github.io/devnotes/tags/linux/</link>
+      <pubDate>Mon, 01 Apr 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://nxvhm.github.io/devnotes/tags/security/</link>
+      <pubDate>Mon, 01 Apr 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Php</title>
+      <link>https://nxvhm.github.io/devnotes/tags/php/</link>
+      <pubDate>Fri, 06 May 2022 22:34:23 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/php/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

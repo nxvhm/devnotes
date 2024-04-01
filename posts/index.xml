@@ -5,13 +5,20 @@
     <link>https://nxvhm.github.io/devnotes/posts/</link>
     <description>Recent content in Posts on Devnotes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jun 2022 22:34:23 +0300</lastBuildDate><atom:link href="https://nxvhm.github.io/devnotes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Apr 2024 20:47:12 +0300</lastBuildDate>
+    <atom:link href="https://nxvhm.github.io/devnotes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common Firewall Rules</title>
+      <link>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</link>
+      <pubDate>Mon, 01 Apr 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</guid>
+      <description>List of common firewall linux 1. Allow SSH (port 22) from a specific IP address: sudo firewall-cmd --zone=public --add-rich-rule=&amp;#39;rule family=&amp;#34;ipv4&amp;#34; source address=&amp;#34;192.168.1.2&amp;#34; port protocol=&amp;#34;tcp&amp;#34; port=&amp;#34;22&amp;#34; accept&amp;#39; --permanent sudo firewall-cmd --reload Block incoming ICMP (ping) requests: sudo firewall-cmd --zone=public --add-rich-rule=&amp;#39;rule family=&amp;#34;ipv4&amp;#34; protocol value=&amp;#34;icmp&amp;#34; drop&amp;#39; -- permanent sudo firewall-cmd --reload Allow traffic from a specific network range: sudo firewall-cmd --zone=public --add-source=192.168.0.0/24 --permanent sudo firewall-cmd --reload Open a custom port range (e.g., 5000-6000): sudo firewall-cmd --zone=public --add-port=5000-6000/tcp --permanent sudo firewall-cmd --reload Block outgoing traffic on a specific port (e.</description>
+    </item>
     <item>
       <title>Elasticsearch and Kibana paths</title>
       <link>https://nxvhm.github.io/devnotes/posts/elastic-basics/</link>
       <pubDate>Fri, 03 Jun 2022 22:34:23 +0300</pubDate>
-      
       <guid>https://nxvhm.github.io/devnotes/posts/elastic-basics/</guid>
       <description>Start/stop/restart:
 sudo systemctl restart elasticsearch.service sudo systemctl restart kibana.service Config folders:
@@ -19,12 +26,10 @@ sudo systemctl restart elasticsearch.service sudo systemctl restart kibana.servi
 /etc/elasticsearch/certs/ ES Scripts for enrollment tokes and certicates generation:
 /usr/share/elasticsearch/bin/ /usr/share/kibana/bin/ </description>
     </item>
-    
     <item>
       <title>Run Script in background on system startup with nohup</title>
       <link>https://nxvhm.github.io/devnotes/posts/scriptonstartup/</link>
       <pubDate>Fri, 06 May 2022 22:34:23 +0300</pubDate>
-      
       <guid>https://nxvhm.github.io/devnotes/posts/scriptonstartup/</guid>
       <description>Install nohup which is used to run processes in background
 sudo apt install nohup	Create a simple shell script in /usr/local/bin which is gonna be responsible for starting the script via nohup.
@@ -32,6 +37,5 @@ sudo apt install nohup	Create a simple shell script in /usr/local/bin which is g
 sudo chmod u+x myscript.sh	Symlink script to /etc/init.d/
 sudo ln -s /usr/local/bin/myscript.sh /etc/init.d/ Symlink the symlink to /etc/rc2.d. Prepend the scriptname with S[NUMBER]. Number is used by the system to determine the order of executing the scripts in the /etc/rc2.</description>
     </item>
-    
   </channel>
 </rss>
