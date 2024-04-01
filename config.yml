@@ -32,14 +32,17 @@ params:
   showtoc: false
   tocopen: false
 
-menu:
-    main:
-
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
-        - identifier: Devnotes
-          name: nxvhm.github.io
-          url: https://nxvhm.github.io/devnotes/
-          weight: 30  
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+          - identifier: tags
+            name: tags
+            url: /tags/
+            weight: 20
+          - identifier: Devnotes
+            name: nxvhm.github.io
+            url: https://nxvhm.github.io/devnotes/
+            weight: 30  
