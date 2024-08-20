@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</loc>
-    <lastmod>2024-04-01T20:47:12+03:00</lastmod>
+    <loc>https://nxvhm.github.io/devnotes/tags/database/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/tags/db/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
   </url><url>
     <loc>https://nxvhm.github.io/devnotes/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/tags/mysql/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/posts/mysql-init-user-and-db/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/posts/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/tags/sql/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/tags/</loc>
+    <lastmod>2024-08-20T20:47:12+03:00</lastmod>
+  </url><url>
+    <loc>https://nxvhm.github.io/devnotes/posts/common-firewall-rules/</loc>
     <lastmod>2024-04-01T20:47:12+03:00</lastmod>
   </url><url>
     <loc>https://nxvhm.github.io/devnotes/tags/firewall/</loc>
@@ -14,13 +35,7 @@
     <loc>https://nxvhm.github.io/devnotes/tags/linux/</loc>
     <lastmod>2024-04-01T20:47:12+03:00</lastmod>
   </url><url>
-    <loc>https://nxvhm.github.io/devnotes/posts/</loc>
-    <lastmod>2024-04-01T20:47:12+03:00</lastmod>
-  </url><url>
     <loc>https://nxvhm.github.io/devnotes/tags/security/</loc>
-    <lastmod>2024-04-01T20:47:12+03:00</lastmod>
-  </url><url>
-    <loc>https://nxvhm.github.io/devnotes/tags/</loc>
     <lastmod>2024-04-01T20:47:12+03:00</lastmod>
   </url><url>
     <loc>https://nxvhm.github.io/devnotes/posts/elastic-basics/</loc>

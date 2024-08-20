@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Db on Devnotes</title>
+    <link>https://nxvhm.github.io/devnotes/tags/db/</link>
+    <description>Recent content in Db on Devnotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Aug 2024 20:47:12 +0300</lastBuildDate>
+    <atom:link href="https://nxvhm.github.io/devnotes/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL: Create User and Database</title>
+      <link>https://nxvhm.github.io/devnotes/posts/mysql-init-user-and-db/</link>
+      <pubDate>Tue, 20 Aug 2024 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/posts/mysql-init-user-and-db/</guid>
+      <description>Login with mysql client
+Create new user CREATE USER &amp;#39;new_user&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; In order to grant all privileges of the database for a newly created user, execute the following command: GRANT ALL PRIVILEGES ON * . * TO &amp;#39;new_user&amp;#39;@&amp;#39;localhost&amp;#39;; For changes to take effect immediately flush these privileges by typing in the command:
+FLUSH PRIVILEGES; Revoke Privileges REVOKE ALL PRIVILEGES ON * . * FROM &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39;; Delete User DROP USER ‘user_name’@‘localhost’; Show Privileges SHOW GRANTS FOR &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39;; Create database CREATE DATABASE IF NOT EXISTS new_database; </description>
+    </item>
+  </channel>
+</rss>
