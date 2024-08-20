@@ -14,7 +14,8 @@ CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
 
 #### In order to grant all privileges of the database for a newly created user, execute the following command: 
 ```sh
-GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'localhost'; // grant on all
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
 ```
 For changes to take effect immediately flush these privileges by typing in the command: 
 ```sh
