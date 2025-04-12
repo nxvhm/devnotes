@@ -6,20 +6,34 @@
     <description>Recent content in Tags on Devnotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Aug 2024 20:47:12 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 20:47:12 +0300</lastBuildDate>
     <atom:link href="https://nxvhm.github.io/devnotes/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database</title>
       <link>https://nxvhm.github.io/devnotes/tags/database/</link>
-      <pubDate>Tue, 20 Aug 2024 20:47:12 +0300</pubDate>
+      <pubDate>Thu, 10 Apr 2025 20:47:12 +0300</pubDate>
       <guid>https://nxvhm.github.io/devnotes/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Db</title>
       <link>https://nxvhm.github.io/devnotes/tags/db/</link>
-      <pubDate>Tue, 20 Aug 2024 20:47:12 +0300</pubDate>
+      <pubDate>Thu, 10 Apr 2025 20:47:12 +0300</pubDate>
       <guid>https://nxvhm.github.io/devnotes/tags/db/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postgresql</title>
+      <link>https://nxvhm.github.io/devnotes/tags/postgresql/</link>
+      <pubDate>Thu, 10 Apr 2025 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>https://nxvhm.github.io/devnotes/tags/sql/</link>
+      <pubDate>Thu, 10 Apr 2025 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/tags/sql/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +41,6 @@
       <link>https://nxvhm.github.io/devnotes/tags/mysql/</link>
       <pubDate>Tue, 20 Aug 2024 20:47:12 +0300</pubDate>
       <guid>https://nxvhm.github.io/devnotes/tags/mysql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sql</title>
-      <link>https://nxvhm.github.io/devnotes/tags/sql/</link>
-      <pubDate>Tue, 20 Aug 2024 20:47:12 +0300</pubDate>
-      <guid>https://nxvhm.github.io/devnotes/tags/sql/</guid>
       <description></description>
     </item>
     <item>

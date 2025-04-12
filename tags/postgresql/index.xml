@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Postgresql on Devnotes</title>
+    <link>https://nxvhm.github.io/devnotes/tags/postgresql/</link>
+    <description>Recent content in Postgresql on Devnotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Apr 2025 20:47:12 +0300</lastBuildDate>
+    <atom:link href="https://nxvhm.github.io/devnotes/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgresql: Whitelist IP</title>
+      <link>https://nxvhm.github.io/devnotes/posts/pg-whitelist-ip/</link>
+      <pubDate>Thu, 10 Apr 2025 20:47:12 +0300</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/posts/pg-whitelist-ip/</guid>
+      <description>Edit pg_hba.conf file located in /etc/postgresql/{version}/main/pg_hba.conf.
+Example entry to allow IP Address 10.20.30.40 to connect to test database
+host test test 10.20.30.40/32 md5 Restart postgresql:
+sudo service postgresql restart Check if server is running and accepting connections:
+pg_isready </description>
+    </item>
+  </channel>
+</rss>
