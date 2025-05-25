@@ -6,8 +6,21 @@
     <description>Recent content on Devnotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Apr 2025 20:47:12 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 18:32:07 +0100</lastBuildDate>
     <atom:link href="https://nxvhm.github.io/devnotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgresql: Create New User/Database</title>
+      <link>https://nxvhm.github.io/devnotes/posts/postgre-user/</link>
+      <pubDate>Sat, 24 May 2025 18:32:07 +0100</pubDate>
+      <guid>https://nxvhm.github.io/devnotes/posts/postgre-user/</guid>
+      <description>Login as postgresql root user:
+sudo -u postgres psql If you dont want to use root, use:
+psql -U username -d dbname -h your_host Create New user:
+CREATE USER your_new_username WITH ENCRYPTED PASSWORD &amp;#39;your_password&amp;#39;; Create Database:
+CREATE DATABASE your_new_database; Grant privileges
+GRANT ALL PRIVILEGES ON DATABASE your_new_database TO your_new_username; To check if user is created:
+SELECT * FROM pg_user; Detailed explanations on users: https://www.strongdm.com/blog/postgres-create-user</description>
+    </item>
     <item>
       <title>Postgresql: Whitelist IP</title>
       <link>https://nxvhm.github.io/devnotes/posts/pg-whitelist-ip/</link>
